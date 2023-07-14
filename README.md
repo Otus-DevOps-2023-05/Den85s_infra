@@ -1,5 +1,6 @@
 # Den85s_infra
 
+
 # способ подключения к someinternalhost в одну команду:
   ssh -J  denis@158.160.38.199 denis@10.128.0.31
 
@@ -10,6 +11,7 @@ Host someinternalhost
   Hostname 10.128.0.31
   ProxyJump 158.160.38.199
   User denis
+
 
 #Open VPN
 bastion_IP = 158.160.38.199
