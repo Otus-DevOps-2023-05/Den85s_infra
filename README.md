@@ -16,3 +16,7 @@ Host someinternalhost
 #Open VPN
 bastion_IP = 158.160.38.199
 someinternalhost_IP = 10.128.0.31
+
+#cloud-testapp
+testapp_IP = 62.84.118.51
+testapp_port = 9292
