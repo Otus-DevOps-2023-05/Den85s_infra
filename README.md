@@ -1,5 +1,5 @@
 # Den85s_infra
 
-
-testapp_IP = 158.160.114.141
-testapp_port = 9292
+установлен Packer
+создан шаблон ubuntu16.json для создания baked-образа
+создан шаблон immutable.json.json для создания bake-образа c запущенным http сервером
