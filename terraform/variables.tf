@@ -25,5 +25,8 @@ variable "subnet_id" {
   description = "Subnet"
 }
 variable "service_account_key_file" {
-  description = "key.json"
+  description = "account key"
+}
+variable "count_instance" {
+  description = "count instance yandex"
 }

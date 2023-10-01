@@ -6,3 +6,4 @@ public_key_path          = "~/.ssh/id_rsa.pub"
 private_key_path         = "~/.ssh/id_rsa"
 subnet_id                = "xxxxxxxxxxxxxxxxxxxx"
 service_account_key_file = "~/Key/key.json"
+count_instance           = 2
