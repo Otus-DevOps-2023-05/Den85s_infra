@@ -11,3 +11,6 @@ outputs.tf - выходные переменные
 variables.tf - описание входных переменных
 terraform.tfvars - значение входных переменных
 terraform.tfvars.example - примеры входных переменных
+
+# Terraform 2
+Реализован деплой stage и прод окружение с помощью созданных модулей app и db с сохранением состояния в Yandes Object Storage S3
