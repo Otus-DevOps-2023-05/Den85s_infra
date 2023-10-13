@@ -14,3 +14,7 @@ terraform.tfvars.example - примеры входных переменных
 
 # Terraform 2
 Реализован деплой stage и прод окружение с помощью созданных модулей app и db с сохранением состояния в Yandes Object Storage S3
+
+# Ansible
+После выполнения команды ansible app -m command -a 'rm -rf ~/reddit' выполнение плейбука clone.yml заново загрузило ~/reddit о чем было сообщение в логе changed=1
+Созданы файлы inventory для статического json (inventory.json) и динамического (dynamic.py)
