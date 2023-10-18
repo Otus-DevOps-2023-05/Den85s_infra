@@ -40,7 +40,7 @@ resource "yandex_compute_instance" "db" {
     agent = false
     private_key = file(var.private_key_path)
   }
-
+  /*
   provisioner "file" {
     content     = templatefile("${path.module}/files/mongod.conf", { MONGOD_IP = yandex_compute_instance.db.network_interface.0.ip_address })
     destination = "/tmp/mongod.conf"
@@ -49,4 +49,5 @@ resource "yandex_compute_instance" "db" {
   provisioner "remote-exec" {
     script = "${path.module}/files/change_mongod_conf.sh"
   }
+  */
 }
