@@ -1,9 +1,9 @@
 app:
   hosts:
-    reddit-app:
+    appserver:
       ansible_host: 51.250.70.77
 
 db:
   hosts:
-    reddit-db:
+    dbserver:
       ansible_host: 158.160.106.7
