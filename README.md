@@ -18,3 +18,7 @@ terraform.tfvars.example - примеры входных переменных
 # Ansible
 После выполнения команды ansible app -m command -a 'rm -rf ~/reddit' выполнение плейбука clone.yml заново загрузило ~/reddit о чем было сообщение в логе changed=1
 Созданы файлы inventory для статического json (inventory.json) и динамического (dynamic.py)
+
+# Ansible -2
+Настроена конфигурация сервера с установкой reddit и mongodb с помощью ansible-playbook
+доработан билд образов packer c использованием ansible provisioners
